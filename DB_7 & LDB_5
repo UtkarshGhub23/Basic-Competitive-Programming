@@ -1,0 +1,9 @@
+# Program to check if number is divisible by 7 OR last digit is 5
+# Input
+a = int(input("Enter a number: "))
+
+# Checking using (if-else)
+if a % 7 == 0 or a % 10 == 5:
+    print("Condition satisfied!")
+else:
+    print("Condition not satisfied")
