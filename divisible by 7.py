@@ -1,8 +1,6 @@
-# Q.1 Number is divisible by 7 or not ?
-
-# Take input
+#1 Number is divisible by 7 or not
 no = int(input("enter the number"))
-# check conditions
+
 if (no%7==0):
     print("num divisible by 7");
 else:
